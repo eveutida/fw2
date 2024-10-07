@@ -1,16 +1,15 @@
 import Footer from "./modulos/footer";
-import Navbar from "./modulos/navbar";
+import Menu from "./modulos/navbar";
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container, Row, Col} from 'react-bootstrap';
+
 function Index() {
 
   return <div> 
-    <Navbar/>
+    <Menu/>
      Bem-vindo 
     <Container>
-      <Row>
+        <Row>
         <Col className="bg-primary ">1 of 2</Col>
         <Col className="bg-primary-subtle">2 of 2</Col>
       </Row>
