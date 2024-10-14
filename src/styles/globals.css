@@ -1,1 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    margin:0;
+    padding: 0;
+    background: rgb(216,219,237);
+background: radial-gradient(circle, rgba(216,219,237,1) 9%, rgba(111,118,236,1) 50%, rgba(70,70,252,1) 100%);
+    min-height: 100;
+    font-size: larger;
+}

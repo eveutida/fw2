@@ -1,10 +1,11 @@
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import styles from "@/styles/Navbar.module.css"
 
 export default function Menu() {
   return (
-    <Navbar expand="sm" className="bg-info">
+    <Navbar expand="sm" className={`${styles.navGradiante} bg-primary px-3 my-5`}>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">6A</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -16,4 +17,3 @@ export default function Menu() {
     </Navbar>
   );
 }
-
