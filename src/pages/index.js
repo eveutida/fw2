@@ -5,8 +5,8 @@ import Menu from "./modulos/navbar";
 export default function Index() {
   return <div>
     <Menu />
-    <Container className="">
-      Bem Vindos a disciplina
+    <Container>
+      Bem Vindos a disciplina 
     </Container>
     <Footer />
   </div>;
